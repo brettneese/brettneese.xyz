@@ -32,9 +32,7 @@ This is because `minikube` has its own Docker daemon. I need to  run:
 
 To point my local Docker daemon at Minikube and rebuild. 
 
-Now when I do 
+Now when I do:
 
-`kubectl apply -f docker/k8s.yml`
-
-
+`kubectl apply -f docker/k8s.yml;
 
