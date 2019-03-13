@@ -17,3 +17,8 @@ I'm studying for my KCAD, so luckily I already had the k8s object syntax fresh i
 My first goal is to ensure the config changes I recently made are working, so I run:
 	
 `kubectl apply -f docker/k8s.yml`
+
+After a couple of seconds, I run:
+
+`kubectl describe pods`
+
