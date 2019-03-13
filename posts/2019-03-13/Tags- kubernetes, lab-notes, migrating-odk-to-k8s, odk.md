@@ -14,3 +14,4 @@ I already had Minikube installed, so I simply ran:
 
 I'm studying for my KCAD, so luckily I already had the k8s object syntax fresh in my head, and writing up a simple `deployment.yaml` was easy. I chose to embed all my objects into one file - I'm not sure if this is good or bad practice, but it's sure a lot easier to manage.
 
+My first goal is actually testing the configuration tweaks. 
