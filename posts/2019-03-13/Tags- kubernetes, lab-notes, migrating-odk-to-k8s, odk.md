@@ -26,4 +26,6 @@ And I get:
 
 ![Fail](./_1.png)
 
-This is because `minikube` handles 
+This is because `minikube` has its own Docker daemon. I need to  run:
+
+
