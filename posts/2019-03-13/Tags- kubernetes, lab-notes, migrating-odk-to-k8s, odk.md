@@ -12,4 +12,4 @@ I already had Minikube installed, so I simply ran:
 
 ```minikube start``` 
 
-I wanted 
+I wanted to make sure 
