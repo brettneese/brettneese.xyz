@@ -4,7 +4,7 @@ Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk
 
 *I'm working on deploying an Aggregate 2.0 instance to Kubernetes in the cleanest possible way, and documenting my progress in these lab notes.*
 
-## More Config Tweaks, yay!
+## More Config Tweaks, yay
 
 So the good news is: my [PR got accepted](https://github.com/opendatakit/aggregate/pull/439)! The bad news is: I still need to do more configuration work. 😞
 
