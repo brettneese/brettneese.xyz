@@ -8,7 +8,7 @@ Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk
 
 So the good news is: my [PR got accepted](https://github.com/opendatakit/aggregate/pull/439)! The bad news is: I still need to do more configuration work. 😞
 
-The best way in k8s to configure Pods is using [ConfigMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) or [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/). With both ConfigMaps and Secrets, it's possible to bind mount the contents of a key/value pair into an appropriately named file in a directory on the container (or inject them as environment variables.) This will allow me to set a `security.properties` value in a ConfigMap and mount it into the appropriate spot for Aggregate.
+The best way in k8s to configure Pods is using [ConfigMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) or [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/). With both ConfigMaps and Secrets, it's possible to bind mount the contents of a key/value pair into an appropriately named file in a directory on the container (or inject them as environment variables). This will allow me to set a `security.properties` value in a ConfigMap and mount it into the appropriate spot for Aggregate.
 
 Unfortunately, it's not possible to mount individual *files* into existing directories, so it's not feasible to simply mount a file such as "security.properties" into ODK's configuration directory. 
 
