@@ -1,6 +1,6 @@
 Draft: yes
 Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk, #draft
-Summary: In which I attempt 
+Summary: In which I test the previous configuration tweaks in Kubernetes.
 
 # Lab Notes: Migrating ODK Aggregate from Fargate to Azure Kubernetes Services (part 3)
 
