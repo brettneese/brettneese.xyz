@@ -1,6 +1,6 @@
 Draft: yes
 Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk, #draft
-Summary: In which I submit another PR that continues to tweak Aggregate's configuration experience for Docker, using Docker bind-mounts, symlinks and other magic.
+Summary: In which I attempt 
 
 # Lab Notes: Migrating ODK Aggregate from Fargate to Azure Kubernetes Services (part 3)
 
@@ -12,4 +12,4 @@ I already had Minikube installed, so I simply ran:
 
 ```minikube start``` 
 
-I wanted to make sure 
+I'm studying for my KCAD, so luckily I already had 
