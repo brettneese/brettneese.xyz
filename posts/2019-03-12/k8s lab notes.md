@@ -20,6 +20,7 @@ The great part about this is that it _also_ works without k8s, using a simple bi
 
 ```shell 
 docker run -d -p 8080:8080 -it \
+--env 
 --mount type=bind,source="$(pwd)"/src/main/resources/odk-settings.xml,target=/etc/config/odk-settings.xml,readonly \
 --mount type=bind,source="$(pwd)"/src/main/resources/jdbc.properties,target=/etc/config/jdbc.properties,readonly \
 --mount type=bind,source="$(pwd)"/src/main/resources/security.properties,target=/etc/config/security.properties,readonly \
