@@ -1,4 +1,3 @@
-Draft: yes
 Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk, #draft
 Summary: In which I test the previous configuration tweaks in Kubernetes.
 
