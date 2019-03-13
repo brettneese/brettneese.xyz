@@ -42,3 +42,6 @@ kubectl logs -l app=odkaggregate
 
 I get: 
 
+![Woo!](./_2.png)
+
+Which is exactly what I want. The config tweaks are working! 
