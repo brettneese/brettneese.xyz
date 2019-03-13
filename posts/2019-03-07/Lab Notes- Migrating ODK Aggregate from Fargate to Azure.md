@@ -42,7 +42,7 @@ And since I know that happens, I can go ahead and do [this](https://github.com/b
  
 This seems fairly hacky though, so I'm going to submit this as a [PR](https://github.com/opendatakit/aggregate/pull/439) and see what the team says.
 
-(Update: it got accepted! Time to tweak the configuration even more.)
+(Update: it got accepted! [Time to tweak the configuration even more.](https://brettneese.xyz/lab-notes-migrating-odk-aggregate-from-fargate-to-azure-kubernetes-services-part-2))
 
 
 
