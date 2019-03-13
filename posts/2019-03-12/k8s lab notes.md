@@ -18,6 +18,12 @@ This new code allows the bind-mounting of config files to `/etc/config/`. Any en
 
 The great part about this is that it _also_ works without k8s, using a simple bind mount passed to Docker, such as:
 
-```docker run -e DB_USERNAME=brett --mount type=bind,source="$(pwd)"/src/main/resources/jdbc.properties.example,target=/etc/config/jdbc.properties,readonly aggregate:v2.0.1-3-ge2056912-dirty```
+```shell 
+docker run -d -p 8080:8080 -it \
+--mount type=bind,source="$(pwd)"/src/main/resources/odk-settings.xml,target=/etc/config/odk-settings.xml,readonly \
+--mount type=bind,source="$(pwd)"/src/main/resources/jdbc.properties,target=/etc/config/jdbc.properties,readonly \
+--mount type=bind,source="$(pwd)"/src/main/resources/security.properties,target=/etc/config/security.properties,readonly \
+--name=aggregate aggregate:latest
+```
 
 In this case, whatever is in `./src/main/resources/jdbc.properties.example` gets mounted to `/etc/config/jdbc.properties` which is symlinked into `${AGGREGATE_CONF_DIR}/jdbc.properties`, where ODK Aggregate reads it. The DB_USERNAME in this example is also being overriden using environment variables to "brett," instead of whatever is specified in that file. This allows easy rotation in case of leaked secrets.
