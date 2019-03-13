@@ -22,3 +22,5 @@ After a couple of seconds, I run:
 
 `kubectl describe pods`
 
+![./_2.png](oops)
+
