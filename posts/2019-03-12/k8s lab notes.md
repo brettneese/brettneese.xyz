@@ -3,7 +3,7 @@ Summary: In which I submit another PR that continues to tweak Aggregate's config
 
 # Lab Notes: Migrating ODK Aggregate from Fargate to Azure Kubernetes Services (part 2)
 
-*I'm working on deploying an Aggregate 2.0 instance to Kubernetes in the cleanest possible way, and documenting my progress in these lab notes.*
+*I'm working on deploying an Aggregate 2.0 instance to Kubernetes in the cleanest possible way, and documenting my [progress in these lab notes](https://brettneese.xyz/tagged/migrating-odk-to-k8s).*
 
 ## More Config Tweaks, yay
 
