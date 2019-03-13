@@ -8,15 +8,13 @@ Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk
 
 So the good news is: my [PR got accepted](https://github.com/opendatakit/aggregate/pull/439)! The bad news is: I still need to do more configuration work. 😞
 
-The best way in k8s to configure Pods is using [ConfigMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) or [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/). With both ConfigMaps and Secrets, it's possible to bind mount the contents of a key/value pair into an appropriately named file in a directory on the container (or inject them as environment variables). This will allow me to set a `security.properties` value in a ConfigMap and mount it into the appropriate spot for Aggregate.
+The best way in k8s to configure Pods is using [ConfigMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) or [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/). With both ConfigMaps and Secrets, it's possible to bind mount the contents of a key/value pair into an appropriately named file in a directory on the container (or inject them as environment variables). This will allow me to set a `security.properties` value in a ConfigMap (or Secret) and mount it into the appropriate spot for Aggregate.
 
-Unfortunately, it's not possible to mount individual *files* into existing directories, so it's not feasible to simply mount a file such as "security.properties" into ODK's configuration directory. 
+Unfortunately, it's not possible to mount individual *files* into existing directories, so it's not feasible to simply mount a file such as `security.properties` into ODK's configuration directory directly. 
 
 This means I needed to tweak the [Docker `entrypoint.sh` file a bit](https://github.com/opendatakit/aggregate/compare/master...brettneese:docker-entrypoint-tweaks) to create symbolic links from a configuration directory into the appropriate web app directory in ODK. 
 
 This new code allows the bind-mounting of config files to `/etc/config/`. Any environmental variables that are set will override the values in those files, as was already the case.
-
-I still need to filter out the DB password and work on docs, but combined with the previous PR, it's a great start to much improving the Aggregate configuration experience using Docker.
 
 The great part about this is that it _also_ works without k8s, using a simple bind mount passed to Docker, such as:
 
