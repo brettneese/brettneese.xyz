@@ -32,6 +32,8 @@ This is because `minikube` has its own Docker daemon. I need to  run:
 
 To point my local Docker daemon at Minikube and rebuild. 
 
+Now when I do 
 
+`
 
 
