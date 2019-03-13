@@ -26,4 +26,7 @@ docker run -d -p 8080:8080 -it \
 --name=aggregate aggregate:latest
 ```
 
-In this case, whatever is in `./src/main/resources/jdbc.properties.example` gets mounted to `/etc/config/jdbc.properties` which is symlinked into `${AGGREGATE_CONF_DIR}/jdbc.properties`, where ODK Aggregate reads it. The DB_USERNAME in this example is also being overriden using environment variables to "brett," instead of whatever is specified in that file. This allows easy rotation in case of leaked secrets.
+In this case, whatever is in `./src/main/resources/jdbc.properties.example` gets mounted to `/etc/config/jdbc.properties` which is symlinked into `${AGGREGATE_CONF_DIR}/jdbc.properties`, where ODK Aggregate reads it. 
+
+The DB_USERNAME in this example is also being overriden using environment variables to "brett," instead of whatever is specified in that file. 
+
