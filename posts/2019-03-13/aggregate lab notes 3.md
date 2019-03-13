@@ -29,7 +29,9 @@ And I get:
 
 This is because `minikube` has its own Docker daemon. I need to  run:
 
-``eval $(minikube docker-env)``
+```
+eval $(minikube docker-env)
+```
 
 To point my local Docker daemon at Minikube and rebuild. 
 
