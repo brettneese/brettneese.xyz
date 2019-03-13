@@ -34,6 +34,7 @@ To point my local Docker daemon at Minikube and rebuild.
 
 Now when I do 
 
-`
+`kubectl apply -f docker/k8s.yml`
+
 
 
