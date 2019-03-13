@@ -34,5 +34,11 @@ To point my local Docker daemon at Minikube and rebuild.
 
 Now when I do:
 
-`kubectl apply -f docker/k8s.yml;
+```
+kubectl apply -f docker/k8s.yml
+kubectl describe pods
+kubectl logs -l app=odkaggregate
+```
+
+I get: 
 
