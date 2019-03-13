@@ -1,3 +1,4 @@
+Draft: yes
 Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk
 Summary: In which I submit another PR that continues to tweak Aggregate's configuration experience for Docker, using Docker bind-mounts, symlinks and other magic.
 
