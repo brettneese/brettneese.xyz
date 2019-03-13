@@ -8,3 +8,4 @@ Summary: In which I submit another PR that continues to tweak Aggregate's config
 
 Now it's time to test ODK in Kubernetes! 
 
+I already have Minikube installed, 
