@@ -12,4 +12,4 @@ I already had Minikube installed, so I simply ran:
 
 ```minikube start``` 
 
-I'm studying for my KCAD, so luckily I already had 
+I'm studying for my KCAD, so luckily I already had the k8s object syntax fresh in my head, and writing up a simple `deployment.yaml`. I chose to embed all my object into one file - I'm not sure if this is good or bad practice, but it's sure a lot easier  
