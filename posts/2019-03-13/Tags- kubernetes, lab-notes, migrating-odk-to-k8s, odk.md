@@ -22,5 +22,8 @@ After a couple of seconds, I run:
 
 `kubectl describe pods`
 
-![./_1.png](oops)
+And I get:
 
+![Fail](./_1.png)
+
+This is because `minikube` handles 
