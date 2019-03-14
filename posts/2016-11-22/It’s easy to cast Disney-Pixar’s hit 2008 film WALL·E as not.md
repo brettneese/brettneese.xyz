@@ -1,3 +1,5 @@
+Date: 11-26-2016
+
 # The Communitarian Politics of WALL·E 
 
 It’s easy to cast Disney-Pixar’s hit 2008 film WALL·E as not much more than a simple love tale between two robots. While that tale may weirdly exotic in its own right — just what kind of move might be necessary for a robot to gain human emotions that allow them to “fall in love” in the first place? — in the reading of the film presented here, I want to reposition the film not as merely a love tale between WALL·E and EVE, but one that hints at something much deeper – a radical way to reimagine politics through a Jean Paul Sartre-inspired yet communitarian lens.
