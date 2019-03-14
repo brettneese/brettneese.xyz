@@ -48,6 +48,7 @@ This turn away from individualism has exciting political implications: suggestin
 
 WALL·E is a tale about this turn towards action. Not only do the passengers of the ship break free of their collective hallucinations — Plato’s Cave-style — but in doing so, they enter in to a new political relationship with each other: one repositioned away from the Buy and Large corporation and onto themselves. As Daniel Kemmis explains in Community and The Politics of Place “once the parties themselves get the idea that they are responsible for coming up with the answer, rather than simply turning it over to a third party, they are likely to begin to think and act differently” (Kemmis 1990, 113.) It is telling that it is not until the captain learns that he is ultimately responsible — not just for himself, but even for that which is outside him — that he begins fighting Auto and pushing towards a return towards Earth. He is initially intellectually fascinated with the concept of a return to the planet, but it is not until he finds and feeds the wilting plant that he exclaims, as described in the movie’s script (Stanton and Docker, 2008):
 
+```
    CAPTAIN
    There you go little guy. You came a long way for a drink of water... 
    Just needed someone to look after you, that's all --
@@ -60,6 +61,7 @@ Glances at his EARTH GLOBE
     CAPTAIN
     (to himself)
     We have to go back.
+```
 
 This is the critical moment in the film: where the captain becomes aware “of what he is; that “the full responsibility of his existence rest[s] on him” (Sartre 1948) — and that his existence necessarily impacts the existence and political agency of every other passenger on the _Axiom_.
 
