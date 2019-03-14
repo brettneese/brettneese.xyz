@@ -1,5 +1,5 @@
 Date: 11-26-2016
-Tags: philosophy, movies, communism, school-works
+Tags: philosophy, movies, communism, papers
 
 # The Communitarian Politics of WALL·E 
 
