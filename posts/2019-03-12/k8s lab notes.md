@@ -32,4 +32,4 @@ In this case, whatever is in `./src/main/resources/jdbc.properties.example` gets
 
 The DB_USERNAME in this example is also being overriden using environment variables to "brett," instead of whatever is specified in that file. 
 
-After submitting a PR for these changes, the next step for me will be to finally spin this up in Minikube on my machine.
+After submitting a PR for these changes, the next step for me will be to pfinally spin this up in Minikube on my machine.
