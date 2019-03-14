@@ -1,3 +1,4 @@
+#  America just attempted suicide. Now what? 
 
 On Tuesday, November 8, 2016, the United States of America attempted suicide: 126 million citizens marched into the polling booth and, yearning for an America that never was, just over half called for an end to their cute little constitutional republic and opted instead for a tyranny. They used the liberal democratic process to systematically unravel liberalism itself. Ignored for centuries, the contradictory liberal logic of the modern world was bound to unravel itself eventually. This essay is both a post-mortem and battle cry; in it, I will explore the history of political liberalism and argue for several ways in which it is inherently contradictory; but I will also suggest that despite liberalism’s contradictions, a new politics – one that responds to liberalism’s deepest flaws – is possible, and, perhaps, inevitable.
 
@@ -68,22 +69,15 @@ However, Sartre’s later political and economic writings also make it clear tha
 This piece began with an alarmist claim, but it should end in hope. I have argued several audacious things: first, I explored the history of political liberalism, and then began to challenge the fundamental assertion of the liberal individual whose rights exist as a function of his rationality and are thus bound unconditionally. I proceeded to explore the ways in which traditional liberalism contradicts itself: it suggests that the good life should be the one built on freedom, an obvious contradiction. Representative government mediates political action from the very individual it seeks to ascribe freedom to in the first place, and the denial of this action is the very denial of the necessary conditions of freedom. It predicates itself on a fundamental free self-consciousness that can only arise within a community, while also denying the validity of that social condition as essential in any way; this, inevitably, leads to the fascist construction and oppression of an Other.
 
 But the forces which dismantle liberalism also provide a space by which to construct a new politics that can avoid many of liberalism’s obvious contradictions. There are many practical and theoretical considerations this new politics must contend with, but the essential thrust of this argument is that to avoid the self-destruction of liberalism that is fascism, liberalism must learn to relocate the foundation precepts of rights away from the individual and towards the individual within community; while also reimagining political action not as something that happens in the voting booth but that happens through direct action and interaction between selves in community. This new politics may be the only way to heal a very damaged America.
-Works Cited
 
-Gaus, Gerald, Courtland, Shane D. and Schmidtz, David. 2015. “Liberalism” in The Stanford Encyclopedia of Philosophy (Spring 2015 Edition). Edited by Edward N. Zalta. <http://plato.stanford.edu/archives/spr2015/entries/liberalism/&gt;
+## Works Cited
 
-Hobbes, Thomas. 1994. Leviathan. Edited by Edwin Curley. Indianapolis: Hackett.
-
-Kant, Immanuel. 1784. “Idea for a Universal History from a Cosmopolitan Point of View.” Translated by Lewis White Black. <https://www.marxists.org/reference/subject/ethics/kant/universal-history.htm&gt;
-
-Locke, John. 1994. Two Treatises of Government. Edited by Peter Laslett. Cambridge, New York, Melbourne: Cambridge University Press.
-
-Mill, J. S. 1869. On Liberty. <https://www.gutenberg.org/files/34901/34901-h/34901-h.htm&gt;
-
-Sartre, Jean Paul. 2001. Being and Nothingness. Translated by Hazel E. Barnes. New York: Citadel Press.
-
-———, 2001. Critique of Dialectical Reason: Volume 1. Translated by Quintin Hoare. London: Verso.
-
-Sender, Ron; Fuchs, Shai; Milo, Ron. 2016. “Revised estimates for the number of human and bacteria cells in the body.” < http://biorxiv.org/content/early/2016/01/06/036103>
-
-Taylor, Charles. 1985. Philosophy and the Human Sciences: Philosophical Papers 2, Cambridge: Cambridge University Press.
+- Gaus, Gerald, Courtland, Shane D. and Schmidtz, David. 2015. “Liberalism” in The Stanford Encyclopedia of Philosophy (Spring 2015 Edition). Edited by Edward N. Zalta. <http://plato.stanford.edu/archives/spr2015/entries/liberalism/>;
+- Hobbes, Thomas. 1994. Leviathan. Edited by Edwin Curley. Indianapolis: Hackett.
+- Kant, Immanuel. 1784. “Idea for a Universal History from a Cosmopolitan Point of View.” Translated by Lewis White Black. <https://www.marxists.org/reference/subject/ethics/kant/universal-history.htm&gt;
+- Locke, John. 1994. Two Treatises of Government. Edited by Peter Laslett. Cambridge, New York, Melbourne: Cambridge University Press.
+- Mill, J. S. 1869. On Liberty. <https://www.gutenberg.org/files/34901/34901-h/34901-h.htm&gt;
+- Sartre, Jean Paul. 2001. Being and Nothingness. Translated by Hazel E. Barnes. New York: Citadel Press.
+- Sartre, Jean Paul. 2001. Critique of Dialectical Reason: Volume 1. Translated by Quintin Hoare. London: Verso.
+- Sender, Ron; Fuchs, Shai; Milo, Ron. 2016. “Revised estimates for the number of human and bacteria cells in the body.” < http://biorxiv.org/content/early/2016/01/06/036103>
+- Taylor, Charles. 1985. Philosophy and the Human Sciences: Philosophical Papers 2, Cambridge: Cambridge University Press.
