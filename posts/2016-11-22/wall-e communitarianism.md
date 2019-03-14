@@ -50,7 +50,9 @@ WALL·E is a tale about this turn towards action. Not only do the passengers of 
 
 ```
    CAPTAIN
-   There you go little guy. You came a long way for a drink of water... Just needed someone to look after you, that's all --
+   There you go little guy. You came a long way for a drink of water... 
+   
+   Just needed someone to look after you, that's all --
 
 He is struck with a notion.
 Stares out the window at space for a beat.
