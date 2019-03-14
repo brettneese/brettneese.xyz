@@ -1,5 +1,5 @@
 Date: 12-01-2016
-Tags: philosophy, Trump, Sartre, Locke, communism
+Tags: philosophy, Trump, Sartre, Locke, Kcommunism
 
 #  America just attempted suicide. Now what? 
 
