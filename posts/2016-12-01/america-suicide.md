@@ -1,3 +1,6 @@
+Date: 12-01-2016
+Tags: philosophy, trump, Sartre, Locke, communism
+
 #  America just attempted suicide. Now what? 
 
 On Tuesday, November 8, 2016, the United States of America attempted suicide: 126 million citizens marched into the polling booth and, yearning for an America that never was, just over half called for an end to their cute little constitutional republic and opted instead for a tyranny. They used the liberal democratic process to systematically unravel liberalism itself. Ignored for centuries, the contradictory liberal logic of the modern world was bound to unravel itself eventually. This essay is both a post-mortem and battle cry; in it, I will explore the history of political liberalism and argue for several ways in which it is inherently contradictory; but I will also suggest that despite liberalism’s contradictions, a new politics – one that responds to liberalism’s deepest flaws — is possible, and, perhaps, inevitable.
