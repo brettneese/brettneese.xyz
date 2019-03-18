@@ -16,4 +16,6 @@ Several systems of interest are:
 - [Prestel](https://en.wikipedia.org/wiki/Prestel) in the UK, which was operated by the General Post Office
 - Viewtron in the US, which was operated by AT&T and Knight-Ridder publishing. It was a dismal failure, but produced an aesthetic af video:
 
+https://www.youtube.com/watch?v=sgYkpk9nJnE&app=desktop
+
 
