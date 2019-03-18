@@ -18,4 +18,4 @@ Several systems of interest are:
 
 https://www.youtube.com/watch?v=sgYkpk9nJnE&app=desktop
 
-The Viewtron interface, in particular, is intriguing to me. It used a language called 
+The Viewtron interface, in particular, is intriguing to me. It used a language called NAPLPS. 
