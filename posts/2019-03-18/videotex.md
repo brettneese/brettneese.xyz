@@ -1,4 +1,4 @@
-Draft: yes
+Tags: art, shorts, research, hackery, ideas
 
 # Videotex 
 
