@@ -1,7 +1,7 @@
 Category: Research Shorts
 Tags: #art , #shorts , #research , #hackery , #ideas
 
-# Research Shorts: Videotex 
+# Videotex 
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Videotex): 
 
