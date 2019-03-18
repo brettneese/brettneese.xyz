@@ -13,4 +13,4 @@ Videotex is interesting to me, not just because of its aesthetic qualities, but 
 Several systems of interest are:
 
 - [Minitel](https://en.wikipedia.org/wiki/Minitel) in France, by far the most popular and widely adopted system. It was unique in that it was somewhat decentralized.
-- Prestel in the UK, which 
+- Prestel in the UK, which was operated by the General Post Office 
