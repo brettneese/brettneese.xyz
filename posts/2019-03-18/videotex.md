@@ -20,6 +20,6 @@ https://www.youtube.com/watch?v=sgYkpk9nJnE&app=desktop
 
 The Viewtron interface, in particular, is intriguing to me. It used a language called [NAPLPS](https://en.wikipedia.org/wiki/NAPLPS), an extremely low-bandwidth graphics language that could produce complex graphics using terse object commands. I would love to get my hands on an implementation of this language and do something with it. 
 
-Another interesting avenue of research is the Singapore Teleview system, which transmitted imagery via "Full Field Teletext transmissions from dedicated data inserters/UHF TV Transmitters." My understanding is this means imagery was transmitted the same way TV signals were transmitted! I'd love to reimplement this. 
+Another interesting avenue of research is the Singapore [Teleview system](), which transmitted imagery via "Full Field Teletext transmissions from dedicated data inserters/UHF TV Transmitters." My understanding is this means imagery was transmitted the same way TV signals were transmitted! I'd love to reimplement this. 
 
 Finally, [TELSTAR](https://glasstty.com/wiki/index.php/The_TELSTAR_Videotex_System) seems to be a re-implementation of a PRESTEL-like server, which can apparently be accessed fromRISC OS running on a Raspberry Pi (another thing I learned, Raspberry Pis can run RISC OS.) Another project might be building a traditional modem interface to a system like TELSTAR on top of Twilio or similar. 
