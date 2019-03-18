@@ -1,3 +1,4 @@
+Category: Lab Notes
 Hashtags: #kubernetes , #labnotes , #migratingodktok8s ,  #odk , migrating-okd-to-k8s
 Summary: In which I test the previous configuration tweaks in Kubernetes.
 
