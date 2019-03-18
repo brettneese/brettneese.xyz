@@ -1,5 +1,5 @@
 Date: 12-01-2016
-Tags: philosophy, Trump, Sartre, Locke, Kant, communism, papers
+Tags: #philosophy , #Trump , #Sartre , #Locke , #Kant , #communism , #papers
 
 #  America just attempted suicide. Now what? 
 
