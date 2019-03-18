@@ -20,5 +20,7 @@ https://www.youtube.com/watch?v=sgYkpk9nJnE&app=desktop
 
 The Viewtron interface, in particular, is intriguing to me. It used a language called [NAPLPS](https://en.wikipedia.org/wiki/NAPLPS), an extremely low-bandwidth graphics language that could produce complex graphics using terse object commands. I would love to get my hands on an implementation of this language and do something with it. 
 
-Another interesting avenue of research is the Singapore Teleview system, which transmitted imagery via "full field teletext with interchange control and handshaking via V22 modem." My understanding is 
+Another interesting avenue of research is the Singapore Teleview system, which transmitted imagery via "Full Field Teletext transmissions from dedicated data inserters/UHF TV Transmitters." My understanding is this means imagery was transmitted the same way TV signals were transmitted! I'd love to reimplement this. 
+
+
 
