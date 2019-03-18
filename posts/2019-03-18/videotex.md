@@ -23,3 +23,5 @@ The Viewtron interface, in particular, is intriguing to me. It used a language c
 Another interesting avenue of research is the Singapore [Teleview system](https://en.wikipedia.org/wiki/Singapore_Teleview), which transmitted imagery via "Full Field Teletext transmissions from dedicated data inserters/UHF TV Transmitters." My understanding is this means imagery was transmitted the same way TV signals were transmitted! I'd love to reimplement this. 
 
 Finally, [TELSTAR](https://glasstty.com/wiki/index.php/The_TELSTAR_Videotex_System) seems to be a re-implementation of a PRESTEL-like server, which can apparently be accessed fromRISC OS running on a Raspberry Pi (another thing I learned, Raspberry Pis can run RISC OS.) Another project might be building a traditional modem interface to a system like TELSTAR on top of Twilio or similar. 
+
+[This article](https://medium.com/@cq94/get-your-minitels-back-the-computel-videotex-bbs-is-back-1d8c42f1ea17) is also a lot of fun.
