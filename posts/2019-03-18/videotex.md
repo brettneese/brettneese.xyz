@@ -14,7 +14,7 @@ Several systems of interest are:
 
 - [Minitel](https://en.wikipedia.org/wiki/Minitel) in France, by far the most popular and widely adopted system. It was unique in that it was somewhat decentralized.
 - [Prestel](https://en.wikipedia.org/wiki/Prestel) in the UK, which was operated by the General Post Office
-- Viewtron in the US, which was operated by AT&T and Knight-Ridder publishing. It was a dismal failure, but produced an aesthetic af video:
+- [Viewtron]() in the US, which was operated by AT&T and Knight-Ridder publishing. It was a dismal failure, but produced an aesthetic af video:
 
 https://www.youtube.com/watch?v=sgYkpk9nJnE&app=desktop
 
