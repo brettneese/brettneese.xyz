@@ -1,4 +1,4 @@
-Category: research shorts
+Category: Research Shorts
 Tags: #art , #shorts , #research , #hackery , #ideas
 
 # Research Shorts: Videotex 
