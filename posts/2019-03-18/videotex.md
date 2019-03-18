@@ -22,5 +22,5 @@ The Viewtron interface, in particular, is intriguing to me. It used a language c
 
 Another interesting avenue of research is the Singapore Teleview system, which transmitted imagery via "Full Field Teletext transmissions from dedicated data inserters/UHF TV Transmitters." My understanding is this means imagery was transmitted the same way TV signals were transmitted! I'd love to reimplement this. 
 
-Finally, 
+Finally, https://glasstty.com/wiki/index.php/The_TELSTAR_Videotex_System
 
