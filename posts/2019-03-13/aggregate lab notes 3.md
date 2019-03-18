@@ -1,5 +1,5 @@
-Tags: kubernetes, lab-notes, migrating-odk-to-k8s, odk
-IA Tags: #kubernetes #labnotes #odk #migratingodktok8s
+Hashtags: #kubernetes #labnotes #migratingodktok8s #odk #migratingodktok8s
+
 Summary: In which I test the previous configuration tweaks in Kubernetes.
 
 # Lab Notes: Migrating ODK Aggregate from Fargate to Azure Kubernetes Service (part 3)
