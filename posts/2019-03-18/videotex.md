@@ -18,5 +18,4 @@ Several systems of interest are:
 
 https://www.youtube.com/watch?v=sgYkpk9nJnE&app=desktop
 
-All these interfaces are really cool. 
-
+The Viewtron interface, in particular, is intriguing to me. It used a language called 
