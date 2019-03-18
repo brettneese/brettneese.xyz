@@ -1,3 +1,4 @@
+Category: Papers
 Date: 12-01-2016
 Tags: #philosophy , #Trump , #Sartre , #Locke , #Kant , #communism , #papers
 
