@@ -12,4 +12,4 @@ Videotex is interesting to me, not just because of its aesthetic qualities, but 
 
 Several systems of interest are:
 
-- Minitel, by far the most popular and 
+- Minitel in France, by far the most popular system 
