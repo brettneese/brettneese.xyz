@@ -1,6 +1,6 @@
 Tags: art, shorts, research, hackery, ideas
 
-# Videotex 
+# Shorts: Videotex 
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Videotex): 
 
