@@ -1,5 +1,5 @@
 Hashtags: #kubernetes #labnotes #migratingodktok8s #odk #migratingodktok8s
-Tags: 
+Tags: kubernetes, labnotes, migratingodktok8s, odk, migratingodktok8s
 Summary: In which I submit another PR that continues to tweak Aggregate's configuration experience for Docker, using Docker bind-mounts, symlinks and other magic.
 
 # Lab Notes: Migrating ODK Aggregate from Fargate to Azure Kubernetes Service (part 2)
