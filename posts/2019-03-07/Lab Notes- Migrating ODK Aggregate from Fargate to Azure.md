@@ -1,3 +1,4 @@
+Category: Lab Notes
 Tags: #kubernetes , #labnotes , #migratingodktok8s , #odk , #migratingodktok8s , migrating-odk-to-k8s
 Summary: Why I'm doing this, and I begin to experiment with ODK Aggregate on k8s by sending in a PR that tweaks ODK's build process for Docker.
 
