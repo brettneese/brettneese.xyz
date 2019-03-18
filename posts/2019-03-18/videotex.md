@@ -1,4 +1,4 @@
-Hashtags: #art , #shorts , #research , #hackery , #ideas
+Hashtags: #art #shorts #research #hackery #ideas
 
 Tags: #art , #shorts , #research , #hackery , #ideas
 
