@@ -2,7 +2,7 @@ Draft: yes
 
 # Videotex 
 
-From [Wikipedia](): 
+From [Wikipedia](https://en.wikipedia.org/wiki/Videotex): 
 
 ```
 Videotex (or "interactive videotex") was one of the earliest implementations of an end-user information system
