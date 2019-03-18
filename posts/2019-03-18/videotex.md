@@ -18,6 +18,7 @@ Several systems of interest are:
 
 https://www.youtube.com/watch?v=sgYkpk9nJnE&app=desktop
 
-The Viewtron interface, in particular, is intriguing to me. It used a language called [NAPLPS](https://en.wikipedia.org/wiki/NAPLPS), an extremely low-bandwidth graphics language that could produce complex graphics using terse commands. 
+The Viewtron interface, in particular, is intriguing to me. It used a language called [NAPLPS](https://en.wikipedia.org/wiki/NAPLPS), an extremely low-bandwidth graphics language that could produce complex graphics using terse object commands. I would love to get my hands on an implementation of this language and do something with it. 
+
 
 
