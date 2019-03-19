@@ -26,6 +26,10 @@ When you do so, you even get this cool little icon in your task bar telling you 
 
 ![](./_2.png)
 
+Plus, I can add it to my Login Items in System Preferences so it's always running:
+
+
+
 (I do want to pump `stderr` out as a notification somewhere, though, because sometimes there are conflicts I have to manually go in and fix.)
 
 [^1] Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
