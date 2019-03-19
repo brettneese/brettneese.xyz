@@ -22,7 +22,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 gitwatch -r all -b master /Users/brettneese/brettneese.xyz
 ```
 
-When you do so, you even get this cool little icon in your task bar telling you an Automater action is running in the background, so I can verify it is running... which is awesome, and exactly what I wanted. I even madly Googled around for how to add an icon for an Automater action to the task bar only to learn that functionality is included by default! 
+When you do so, you even get this cool little (spinning) icon in your task bar[^3] telling you an Automater action is running in the background, so I can verify it is running... which is awesome, and exactly what I wanted. I even madly Googled around for how to add an icon for an Automater action to the task bar only to learn that functionality is included by default! 
 
 ![](./_2.png)
 
@@ -39,3 +39,5 @@ I will be sharing some more about my writing and editing workflow in future note
 [^1]: Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
 
 [^2]: Yes, my Git commit history is a bit messy with "auto-committed on $time" commit messages. It's still much better to have version control than to not have it, and I can always stop `gitwatch` if I want to go really off the rails. I just hope I don't blow up the repo with too many commits, although that seems unlikely.
+
+[^3]: The spinning would be annoying except I use Bartender 3 to hide the icon into a 
