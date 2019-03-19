@@ -1,4 +1,5 @@
 Category: Quick Tip
+Draft: no
 
 # Running Background Shell Scripts Using Automater
 
