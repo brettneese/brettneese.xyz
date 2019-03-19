@@ -30,7 +30,9 @@ Plus, I can add it to my Login Items in System Preferences so it's always runnin
 
 ![](./_3.png)
 
-And now I've gotten the functionality I liked in Dropbox using just Git and `gitwatch`!  
+And now I've gotten the functionality I liked in Dropbox using just Git and `gitwatch`! 
+
+I will be sharing some more about my writing and editing workflow in future notes like this one. 
 
 (I do want to pump `stderr` out as a notification somewhere, though, because sometimes there are conflicts I have to manually go in and fix.)
 
