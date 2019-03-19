@@ -11,7 +11,7 @@ So I found and installed `git-watch`, a script that monitors my blog directory a
 
 Thankfully, it's easy to wrap shell scripts into Automater actions -- just open Automater, click "new application" and add a "run shell script action."
 
-
+![](./_1.png)
 
 I had to update my PATH environmental variable in this script to my `brew` directory because it does not automatically source my local `.zshrc`. 
 
