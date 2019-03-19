@@ -1,5 +1,6 @@
 Category: Quick Tip
-Tags: #technology  , #automater , #git , #technical , #thoughtsonwriting
+Tags: #technology  , #automater , #git , #technical , #thoughtsonwriting , #behindthecurtain
+
 # Running Background Shell Scripts Using Automater
 
 As part of some recent housekeeping, I recently swapped the backend of this blog (powered by the wonderful [Blot.io](https://blot.io) from Dropbox to Git -- the reason being that I wanted an easy way to share drafts with friends if necessary. Unfortunately there's not a good a good Google Docs for Markdown files in Dropbox, but everyone I could possibly want to share with already knows how to use GitHub for collaboration.[^1]
