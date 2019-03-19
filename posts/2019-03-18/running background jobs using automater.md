@@ -3,11 +3,11 @@ Draft: no
 
 # Running Background Shell Scripts Using Automater
 
-As part of some recent housekeeping, I recently swapped the backend of this blog (powered by the wonderful [Blot.io](https://blot.io) from Dropbox to Git -- the reason being that I wanted an easy way to share drafts with friends if necessary. Unfortunately there's not a good a good Google Docs for Markdown files in Dropbox, but everyone I could possibly want to share with already knows how to use GitHub for collaboration[^2].
+As part of some recent housekeeping, I recently swapped the backend of this blog (powered by the wonderful [Blot.io](https://blot.io) from Dropbox to Git -- the reason being that I wanted an easy way to share drafts with friends if necessary. Unfortunately there's not a good a good Google Docs for Markdown files in Dropbox, but everyone I could possibly want to share with already knows how to use GitHub for collaboration.[^1]
 
-That being said, I didn't want to fuss with issuing Git commands every time I update a post. I really like the Dropbox UX - I just save, and the post is live. If I ever want to fix a typo in any post, I just fix it in my local editor and save. It's a workflow I love. The distance between thought and publish is as minimal as possible, as I believe it should be. [^1]
+That being said, I didn't want to fuss with issuing Git commands every time I update a post. I really like the Dropbox UX - I just save, and the post is live. If I ever want to fix a typo in any post, I just fix it in my local editor and save. It's a workflow I love. The distance between thought and publish is as minimal as possible, as I believe it should be. [^2]
 
-So I found and installed [`gitwatch`](https://github.com/gitwatch/gitwatch), a script that monitors my blog directory and automatically commits and pushes to both by Blot remote and my GitHub remote on every file save[^3].
+So I found and installed [`gitwatch`](https://github.com/gitwatch/gitwatch), a script that monitors my blog directory and automatically commits and pushes to both by Blot remote and my GitHub remote on every file save.[^3]
 
 But I wanted this to run always, just like Dropbox did. The less I have to think about the process of getting the writing out of my head and into somewhere useful, the more writing (and the more publishing) I can and will do. 
 
@@ -30,7 +30,7 @@ Plus, I can add it to my Login Items in System Preferences so it's always runnin
 
 ![](./_3.png)
 
-And now I've gotten the functionality I liked in Dropbox using just Git and `gitwatch`[^5]! 
+And now I've gotten the functionality I liked in Dropbox using just Git and `gitwatch`![^5] 
 
 I will be sharing some more about my writing and editing workflow in future notes like this one. 
 
