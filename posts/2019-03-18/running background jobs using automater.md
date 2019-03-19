@@ -9,7 +9,7 @@ That being said, I didn't want to fuss with issuing Git commands every time I up
 
 So I found and installed [`gitwatch`](https://github.com/gitwatch/gitwatch), a script that monitors my blog directory and automatically commits and pushes to both by Blot remote and my GitHub remote on every file save[^2].
 
-But I wanted this to run always, just like Dropbox did. The less I have to think about the process of getting the writing out of my head and into somewhere useful, the more writing I can and will do. 
+But I wanted this to run always, just like Dropbox did. The less I have to think about the process of getting the writing out of my head and into somewhere useful, the more writing (and the more publishing) I can and will do. 
 
 Thankfully, it's easy to wrap shell scripts into Automater applications -- just open Automater, click "new application" and add a "run shell script" action.
 
