@@ -6,11 +6,11 @@ As part of some recent housekeeping, I recently swapped the backend of this blog
 
 That being said, I didn't want to fuss with issuing Git commands every time I update a post. I really like the Dropbox UX - I just save, and the post is live. If I ever want to fix a typo in any post, I just fix it in my local editor and save. It's a workflow I love. The distance between thought and publish is as minimal as possible, as I believe it should be (I can mark posts as drafts before they get published.)
 
-So I found and installed [`gitwatch`](https://github.com/gitwatch/gitwatch), a script that monitors my blog directory and automatically commits and pushes to both by Blot remote and my GitHub remote on every file save. 
+So I found and installed [`gitwatch`](https://github.com/gitwatch/gitwatch), a script that monitors my blog directory and automatically commits and pushes to both by Blot remote and my GitHub remote on every file save[^2].
 
 But I wanted this to run always, just like Dropbox did. 
 
-Thankfully, it's easy to wrap shell scripts into Automater actions -- just open Automater, click "new application" and add a "run shell script action."
+Thankfully, it's easy to wrap shell scripts into Automater applications -- just open Automater, click "new application" and add a "run shell script" action.
 
 ![](./_1.png)
 
@@ -28,3 +28,5 @@ When you do so, you even get this cool little icon in your task bar telling you 
 (I do want to pump `stderr` out as a notification somewhere, though, because sometimes there are conflicts I have to manually go in and fix.)
 
 [^1] Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
+
+[^2] Yes, my Git commit history is a bit messy. It's still much better than 
