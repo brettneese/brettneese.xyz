@@ -9,6 +9,6 @@ That being said, I didn't want to fuss with issuing Git commands every time I up
 
 So I found and installed `git-watch`, a script that monitors my blog directory and automatically commits and pushes to both by Blot remote and my GitHub remote on every file save. But I wanted this to run always, just like Dropbox did. 
 
-
+Thankfully, it's easy to wrap shell scripts into Automater actions. And when you do so, you even get this little UI in your menu bar 
 
 [^1] Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
