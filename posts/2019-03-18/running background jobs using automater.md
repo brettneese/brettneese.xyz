@@ -11,6 +11,7 @@ So I found and installed `git-watch`, a script that monitors my blog directory a
 
 Thankfully, it's easy to wrap shell scripts into Automater actions - just open Automater, click "new application" and add a "run shell script action." 
 
+I had to 
 
 And when you do so, you even get this little UI in your menu bar 
 
