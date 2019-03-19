@@ -13,9 +13,18 @@ Thankfully, it's easy to wrap shell scripts into Automater actions -- just open 
 
 ![](./_1.png)
 
-I had to update my PATH environmental variable in this script to my `brew` directory because it does not automatically source my local `.zshrc`. 
+I had to update my PATH environmental variable in this script to my `brew` directory because it does not automatically source my local `.zshrc`. For easy copypastaing, that's:
 
-When you do so, you even get this cool little icon in your menu bar telling you an Automater action is running in the background, so I can verify it is running. 
+```
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+gitwatch -r all -b master /Users/brettneese/brettneese.xyz
+```
+
+When you do so, you even get this cool little icon in your menu bar telling you an Automater action is running in the background, so I can verify it is running... which is awesome, and exactly what I wanted. 
+
+
+
+
 
 (I do want to pump `stderr` out as a notification somewhere, though, because sometimes there are conflicts I have to manually go in and fix.)
 
