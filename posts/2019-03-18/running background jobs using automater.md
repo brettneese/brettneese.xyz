@@ -29,4 +29,4 @@ When you do so, you even get this cool little icon in your task bar telling you 
 
 [^1] Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
 
-[^2] Yes, my Git commit history is a bit messy with "auto-committed on $time" commit messages. It's still much better to have version control than to not have, and I can always stop `gitwatch` if I want to go really off the rails
+[^2] Yes, my Git commit history is a bit messy with "auto-committed on $time" commit messages. It's still much better to have version control than to not have, and I can always stop `gitwatch` if I want to go really off the rails. 
