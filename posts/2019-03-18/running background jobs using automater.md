@@ -29,4 +29,4 @@ When you do so, you even get this cool little icon in your task bar telling you 
 
 [^1] Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
 
-[^2] Yes, my Git commit history is a bit messy. It's still much better than 
+[^2] Yes, my Git commit history is a bit messy with "auto-commited on $time . It's still much better than 
