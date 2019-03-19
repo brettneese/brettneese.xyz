@@ -9,10 +9,13 @@ That being said, I didn't want to fuss with issuing Git commands every time I up
 
 So I found and installed `git-watch`, a script that monitors my blog directory and automatically commits and pushes to both by Blot remote and my GitHub remote on every file save. But I wanted this to run always, just like Dropbox did. 
 
-Thankfully, it's easy to wrap shell scripts into Automater actions - just open Automater, click "new application" and add a "run shell script action." 
+Thankfully, it's easy to wrap shell scripts into Automater actions -- just open Automater, click "new application" and add a "run shell script action." 
 
-I had to 
+[!
+I had to update my PATH environmental variable in this script to my `brew` directory because it does not automatically source my local `.zshrc`. 
 
-And when you do so, you even get this little UI in your menu bar 
+When you do so, you even get this cool little icon in your menu bar telling you an Automater action is running in the background, so I can verify it is running. 
+
+(I do want to pump `stderr` out as a notification somewhere, though, because sometimes there are conflicts I have to manually go in and fix.)
 
 [^1] Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
