@@ -32,6 +32,6 @@ Plus, I can add it to my Login Items in System Preferences so it's always runnin
 
 (I do want to pump `stderr` out as a notification somewhere, though, because sometimes there are conflicts I have to manually go in and fix.)
 
-[^1] Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
+[^1]: Several of my friends have asked me to use Google Docs for sharing drafts. I don't like this because it's so widely different from my usual Markdown workflows. 
 
-[^2] Yes, my Git commit history is a bit messy with "auto-committed on $time" commit messages. It's still much better to have version control than to not have it, and I can always stop `gitwatch` if I want to go really off the rails. I just hope I don't blow up the repo with too many commits, although that seems unlikely.
+[^2]: Yes, my Git commit history is a bit messy with "auto-committed on $time" commit messages. It's still much better to have version control than to not have it, and I can always stop `gitwatch` if I want to go really off the rails. I just hope I don't blow up the repo with too many commits, although that seems unlikely.
