@@ -40,4 +40,4 @@ I will be sharing some more about my writing and editing workflow in future note
 
 [^2]: Yes, my Git commit history is a bit messy with "auto-committed on $time" commit messages. It's still much better to have version control than to not have it, and I can always stop `gitwatch` if I want to go really off the rails. I just hope I don't blow up the repo with too many commits, although that seems unlikely.
 
-[^3]: The spinning would be annoying except I use [Bartender 3]() to hide the icon by default. 
+[^3]: The spinning would be annoying except I use [Bartender 3](https://www.macbartender.com/) to hide the icon by default. 
