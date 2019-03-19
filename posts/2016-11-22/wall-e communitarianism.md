@@ -1,4 +1,4 @@
-Category: Papers
+Category: Essays
 Date: 11-26-2016
 Tags: #philosophy , #movies , #communism , #papers
 
