@@ -3,7 +3,7 @@ Draft: no
 
 # Running Background Shell Scripts Using Automater
 
-As part of some recent housekeeping, I recently swapped the backend of this blog (powered by the wonderful [Blot.io](https://blot.io)) from Dropbox to Git -- the reason being that I wanted an easy way to share drafts with friends if necessary. Unfortunately there's not a good a good Google Docs for Markdown files in Dropbox, but everyone I could possibly want to share with already knows how to use GitHub for collaboration[^1].
+As part of some recent housekeeping, I recently swapped the backend of this blog (powered by the wonderful [Blot.io](https://blot.io) from Dropbox to Git -- the reason being that I wanted an easy way to share drafts with friends if necessary. Unfortunately there's not a good a good Google Docs for Markdown files in Dropbox, but everyone I could possibly want to share with already knows how to use GitHub for collaboration[^1].
 
 That being said, I didn't want to fuss with issuing Git commands every time I update a post. I really like the Dropbox UX - I just save, and the post is live. If I ever want to fix a typo in any post, I just fix it in my local editor and save. It's a workflow I love. The distance between thought and publish is as minimal as possible, as I believe it should be (I can mark posts as drafts before they get published.)
 
