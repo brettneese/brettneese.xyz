@@ -52,4 +52,10 @@ I can now update my `k8s.yml` with the proper connection details. These can be e
 
 Because I'm using the MySQL connection type, I also have to include a custom `odk-settings.xml` in my `k8s.xml`. My final `k8s.yaml` at this point looks something like this. 
 
+Another stumbling block I ran into: apparently Java does not like the symlinks I created in the previous step, and when loading the symlinked properties files threw `Java.io.FileNotFound` errors. This is unfortunate for a number of reasons, but is begrudgingly fixed by `cp`ing the values from the mounted directory into the config directory, instead of symlinking them.[^1]
+
+
+
+[^1] This is less than ideal because it 
+
 
