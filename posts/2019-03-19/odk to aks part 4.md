@@ -45,5 +45,6 @@ CREATE DATABASE aggregate;
 CREATE USER aggregate@'%' IDENTIFIED BY 'aggregate';
 GRANT ALL ON aggregate.* TO odk@'%' IDENTIFIED BY 'aggregate';
 FLUSH PRIVILEGES;
+ALTER USER aggregate@'%' IDENTIFIED BY 'aggregate';
 ```
 
