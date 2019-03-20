@@ -1,15 +1,13 @@
 Draft: yes
 Category: Lab Notes
 Tags: #kubernetes , #labnotes , #migratingodktok8s , #odk , #migratingodktok8s , migrating-odk-to-k8s
+Summary: Cronicallying   struggle of connecting ODK to a real database.
 
 # Lab Notes Part 4
 
 *I'm working on deploying an Aggregate 2.0 instance to Kubernetes in the cleanest possible way, and documenting my [progress in these lab notes](/tagged/migrating-odk-to-k8s).*
 
 Now that I know the config magic I've worked on in the past couple posts is working, I can try spinning up and connecting to a real database! 
-
-
-## Spinning up a staging MySQL DB 
 
 Our existing ODK installation uses MySQL, although this is no longer recommended and fresh installs should use PostgreSQL. I don't believe in managing my own databases, so I'm going to use [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/). Thankfully, it's pretty easy to launch a database using Azure Database Service - I won't walk through that process here.
 
@@ -54,6 +52,7 @@ Because I'm using the MySQL connection type, I also have to include a custom `od
 
 Another stumbling block I ran into: apparently Java does not like the symlinks I created in the previous step, and when loading the symlinked properties files threw `Java.io.FileNotFound` errors. This is unfortunate for a number of reasons, but is begrudgingly fixed by `cp`ing the values from the mounted directory into the config directory, instead of symlinking them.[^1]
 
+Finally, it looks like ODK is connecting to the database and making tables. Next, I need to figure out how to access the service locally. 
 
 
 [^1] This is less than ideal because it means that secrets aren't stored on tmpfs volumes.
