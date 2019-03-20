@@ -28,7 +28,13 @@ mysql -u mysql@odk-staging.mysql.database.azure.com -h odk-staging.mysql.databas
  
 My mistake was that the username _must_ be `mysql@odk-staging.mysql.database.azure.com` -- including the hostname.
  
-I also ran into an issue with my IP address not being on - I had to navigate 
+I also ran into an issue with my IP address:
+
+```
+ERROR 9000 (HY000): Client with IP address '$MYIP' is not allowed to connect to this MySQL server.
+```
+
+And had to manually navigate to the "Connection Security" tab in the Azure Portal 
 
 Now that I'm in, I can simply execute:
 
