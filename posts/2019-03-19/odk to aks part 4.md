@@ -56,6 +56,6 @@ Another stumbling block I ran into: apparently Java does not like the symlinks I
 
 
 
-[^1] This is less than ideal because it 
+[^1] This is less than ideal because it means that secrets aren't stored on tmpfs volumes.
 
 
