@@ -53,7 +53,7 @@ Because I'm using the MySQL connection type, I also have to include a custom `od
 
 Another stumbling block I ran into: apparently Java does not like the symlinks I created in the previous step, and when loading the symlinked properties files threw `Java.io.FileNotFound` errors. This is unfortunate for a number of reasons, but is begrudgingly fixed by `cp`ing the values from the mounted directory into the config directory, instead of symlinking them.[^1]
 
-Finally, it looks like ODK is connecting to the database and making tables. Next, I need to figure out how to access the service locally. 
+Finally, it looks like ODK is connecting to the database and making tables. Next, I need to figure out how to access the service locally...
 
 
 [^1] This is less than ideal because it means that secrets aren't stored on tmpfs volumes.
