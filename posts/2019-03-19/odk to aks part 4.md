@@ -10,16 +10,18 @@ Now that I know the config magic I've worked on in the past couple posts is work
 
 I don't believe in managing my own databases, so I'm going to use [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/). Thankfully, it's pretty easy to launch a database using Azure Database Service - I won't walk through that process here. 
 
-I do, however, have to login to the database and initialize it. I struggled to find the right command to connect, often running into an error such as:
+I do, however, have to login to the database and initialize it. I initially struggled to find the right command to connect, often running into an error such as:
 
 ```
 ERROR 9002 (28000): The connection string may not be right. Please visit portal for references.
 ````
 
-The correct connection command for `mysql` is: 
+Thanks to StackOverflow, I learned the correct connection command for `mysql` is actually: 
 
 ```
-mysql -u mysql@odk-staging.mysql.database.azure.com -D mysql -h odk-staging.mysql.database.azure.com -p
+mysql -u mysql@odk-staging.mysql.database.azure.com -h odk-staging.mysql.database.azure.com -p
 
 ```
  
+My mistake was that the username _must_ be `mysql@odk-staging.mysql.database.azure.com` -- including the hostname. 
+
