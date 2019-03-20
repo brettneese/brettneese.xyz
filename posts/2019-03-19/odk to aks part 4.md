@@ -50,3 +50,6 @@ FLUSH PRIVILEGES;
 After I confirmed I can log in with this user, I logged in again as the `mysql` user to update the password to something more secure than `aggregate`:
 
 
+```
+ALTER USER 'aggregate'@'%' IDENTIFIED BY 'newPass';
+```
