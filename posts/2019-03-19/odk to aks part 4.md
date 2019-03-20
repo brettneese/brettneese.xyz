@@ -56,4 +56,4 @@ ALTER USER 'aggregate'@'%' IDENTIFIED BY 'newPass';
 
 I can now update my `k8s.yml` with the proper connection details. These can be easily found in the "Connection Strings" link in the Azure Portal.
 
-Because I'm using the MySQL connection, I also have to include a custom `odk-settings.xml` in my 
+Because I'm using the MySQL connection type, I also have to include a custom `odk-settings.xml` in my `k8s.xml`. 
