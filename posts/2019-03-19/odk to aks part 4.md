@@ -50,6 +50,8 @@ This is a bit different from the command in the ODK Help guide - I learned throu
 
 I can now update my `k8s.yml` with the proper connection details. These can be easily found in the "Connection Strings" link in the Azure Portal.
 
-Because I'm using the MySQL connection type, I also have to include a custom `odk-settings.xml` in my `k8s.xml`. 
+Because I'm using the MySQL connection type, I also have to include a custom `odk-settings.xml` in my `k8s.xml`:
+
+
 
 
