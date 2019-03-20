@@ -1,4 +1,3 @@
-Draft: yes
 Category: Lab Notes
 Tags: #kubernetes , #labnotes , #migratingodktok8s , #odk , #migratingodktok8s , migrating-odk-to-k8s
 Summary: In which I chronicle the struggles of connecting ODK to a real database.
