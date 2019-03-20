@@ -26,7 +26,9 @@ mysql -u mysql@odk-staging.mysql.database.azure.com -h odk-staging.mysql.databas
 
 ```
  
-My mistake was that the username _must_ be `mysql@odk-staging.mysql.database.azure.com` -- including the hostname. 
+My mistake was that the username _must_ be `mysql@odk-staging.mysql.database.azure.com` -- including the hostname.
+ 
+I also ran into an issue with my IP address - I had to 
 
 Now that I'm in, I can simply execute:
 
