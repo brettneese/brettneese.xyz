@@ -54,5 +54,4 @@ After I confirmed I can log in with this user, I logged in again as the `mysql` 
 ALTER USER 'aggregate'@'%' IDENTIFIED BY 'newPass';
 ```
 
-ALTER USER 'aggregate'@'%' IDENTIFIED BY 'KNym^fuhkrFCJ@vMmDRwjTpkYjGfLwQhTDyFX8utcUUquAcbWPXNqBHQ4LRduAzW'
-
+I can now update 
