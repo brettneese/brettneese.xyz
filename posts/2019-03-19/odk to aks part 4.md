@@ -16,7 +16,7 @@ I do, however, have to login to the database and initialize it. I initially stru
 ERROR 9002 (28000): The connection string may not be right. Please visit portal for references.
 ````
 
-Thanks to StackOverflow, I learned the correct connection command for `mysql` is actually: 
+Thanks to [StackOverflow](), I learned the correct connection command for `mysql` is actually: 
 
 ```
 mysql -u mysql@odk-staging.mysql.database.azure.com -h odk-staging.mysql.database.azure.com -p
