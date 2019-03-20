@@ -10,6 +10,8 @@ Now that I know the config magic I've worked on in the past couple posts is work
 
 I don't believe in managing my own databases, so I'm going to use [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/). Thankfully, it's pretty easy to launch a database using Azure Database Service - I won't walk through that process here. 
 
+I do, however, have to login to the database and initialize it:
+
 
 
  
