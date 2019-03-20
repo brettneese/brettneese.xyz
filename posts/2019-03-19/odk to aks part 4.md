@@ -54,3 +54,4 @@ After I confirmed I can log in with this user, I logged in again as the `mysql` 
 ALTER USER 'aggregate'@'%' IDENTIFIED BY 'newPass';
 ```
 
+Ug4xZRMAHpgzjMgNJZ.BxdJbjiPKfFHQBhXFkokfgnYrcG3LLerZwuvroqM#dKyE
