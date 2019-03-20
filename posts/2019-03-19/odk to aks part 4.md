@@ -47,4 +47,4 @@ GRANT ALL ON aggregate.* TO odk@'%' IDENTIFIED BY 'aggregate';
 FLUSH PRIVILEGES;
 ```
 
-After I confirmed I can log in with this user, I logged in again as 
+After I confirmed I can log in with this user, I logged in again as the `mysql` user
