@@ -55,6 +55,6 @@ Another stumbling block I ran into: apparently Java does not like the symlinks I
 Finally, it looks like ODK is connecting to the database and making tables. Next, I need to figure out how to access the service locally...
 
 
-[^1] This is less than ideal because it means that secrets aren't stored on tmpfs volumes.
+[^1]: This is less than ideal because it means that secrets aren't stored on tmpfs volumes.
 
 
