@@ -8,4 +8,4 @@ Tags: #kubernetes , #labnotes , #migratingodktok8s , #odk , #migratingodktok8s ,
 
 Now that I know the config magic I've worked on in the past couple posts is working, I can try spinning up and connecting to a real database! 
 
-I don't believe in managing my own databases, so I'm going to use Azure 
+I don't believe in managing my own databases, so I'm going to use [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/).  
