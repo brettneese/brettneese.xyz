@@ -48,7 +48,7 @@ This is a bit different from the command in the ODK Help guide - I learned throu
 
 I can now update my `k8s.yml` with the proper connection details. These can be easily found in the "Connection Strings" link in the Azure Portal.
 
-Because I'm using the MySQL connection type, I also have to include a custom `odk-settings.xml` in my `k8s.xml`. My final `k8s.yaml` at this point looks something like this. 
+Because I'm using the MySQL connection type, I also have to include a custom `odk-settings.xml` in my `k8s.xml`. My final `k8s.yaml` at this point looks something like [this](https://gist.github.com/brettneese/bfa394df430aed8e432b5d864dc855e6). 
 
 Another stumbling block I ran into: apparently Java does not like the symlinks I created in the previous step, and when loading the symlinked properties files threw `Java.io.FileNotFound` errors. This is unfortunate for a number of reasons, but is begrudgingly fixed by `cp`ing the values from the mounted directory into the config directory, instead of symlinking them.[^1]
 
