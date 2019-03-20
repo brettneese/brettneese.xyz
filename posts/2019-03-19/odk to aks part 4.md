@@ -46,7 +46,7 @@ GRANT ALL ON aggregate.* TO odk@'%' IDENTIFIED BY '$password';
 FLUSH PRIVILEGES;
 ```
 
-This is a bit different from the command in the ODK Help guide - I learned through a bunch of trial and error that it is unnecessary to create a MySQL user _and_ a database-scoped user for "aggregate."
+This is a bit different from the command in the ODK Help guide - I learned through a bunch of trial and error that it is unnecessary to create a MySQL user _and_ a database-scoped user for "aggregate" - I spent an hour figuring out why I couldn't connect when it turns out that database-scoped users 
 
 I can now update my `k8s.yml` with the proper connection details. These can be easily found in the "Connection Strings" link in the Azure Portal.
 
