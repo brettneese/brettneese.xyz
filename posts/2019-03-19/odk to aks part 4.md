@@ -34,7 +34,9 @@ I also ran into an issue with my IP address:
 ERROR 9000 (HY000): Client with IP address '$MYIP' is not allowed to connect to this MySQL server.
 ```
 
-And had to manually navigate to the "Connection Security" tab in the Azure Portal 
+And had to manually navigate to the "Connection Security" tab in the Azure Portal and add my IP to the whitelist.
+
+
 
 Now that I'm in, I can simply execute:
 
