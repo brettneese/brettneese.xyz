@@ -42,18 +42,14 @@ Now that I'm in, I can simply execute:
 
 ```
 CREATE DATABASE aggregate;
-CREATE USER aggregate@'%' IDENTIFIED BY 'aggregate';
 GRANT ALL ON aggregate.* TO odk@'%' IDENTIFIED BY 'aggregate';
 FLUSH PRIVILEGES;
 ```
 
-After I confirmed I can log in with this user, I logged in again as the `mysql` user to update the password to something more secure than `aggregate`:
-
-
-```
-ALTER USER 'aggregate'@'%' IDENTIFIED BY 'newPass';
-```
+Very important: 
 
 I can now update my `k8s.yml` with the proper connection details. These can be easily found in the "Connection Strings" link in the Azure Portal.
 
 Because I'm using the MySQL connection type, I also have to include a custom `odk-settings.xml` in my `k8s.xml`. 
+
+
