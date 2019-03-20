@@ -8,7 +8,10 @@ Tags: #kubernetes , #labnotes , #migratingodktok8s , #odk , #migratingodktok8s ,
 
 Now that I know the config magic I've worked on in the past couple posts is working, I can try spinning up and connecting to a real database! 
 
-I don't believe in managing my own databases, so I'm going to use [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/). Thankfully, it's pretty easy to launch a database using Azure Database Service - I won't walk through that process here. 
+
+## Spinning up a staging MySQL DB 
+
+Our existing ODK installation uses MySQL, although this is no longer recommended and fresh installs should use PostgreSQL. I don't believe in managing my own databases, so I'm going to use [Azure Database for MySQL](https://azure.microsoft.com/en-us/services/mysql/). Thankfully, it's pretty easy to launch a database using Azure Database Service - I won't walk through that process here.
 
 I do, however, have to login to the database and initialize it. I initially struggled to find the right command to connect, often running into an error such as:
 
@@ -16,7 +19,7 @@ I do, however, have to login to the database and initialize it. I initially stru
 ERROR 9002 (28000): The connection string may not be right. Please visit portal for references.
 ````
 
-Thanks to [StackOverflow](), I learned the correct connection command for `mysql` is actually: 
+Thanks to [StackOverflow](https://stackoverflow.com/questions/44035710/connection-to-azure-mysql-server-fails-due-to-incorrect-connection-string#44035711), I learned the correct connection command for `mysql` is actually: 
 
 ```
 mysql -u mysql@odk-staging.mysql.database.azure.com -h odk-staging.mysql.database.azure.com -p
@@ -24,4 +27,13 @@ mysql -u mysql@odk-staging.mysql.database.azure.com -h odk-staging.mysql.databas
 ```
  
 My mistake was that the username _must_ be `mysql@odk-staging.mysql.database.azure.com` -- including the hostname. 
+
+Now that I'm in, I can simply execute:
+
+```
+CREATE DATABASE aggregate;
+CREATE USER aggregate@'%' IDENTIFIED BY 'aggregate';
+GRANT ALL ON aggregate.* TO odk@'%' IDENTIFIED BY 'aggregate';
+FLUSH PRIVILEGES;
+```
 
