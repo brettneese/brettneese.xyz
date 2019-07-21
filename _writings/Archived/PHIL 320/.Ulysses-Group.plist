@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>resolutionData</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>Extra Credit Paper 1.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510514517.36261201</real>
+				<key>version</key>
+				<dict>
+					<key>2edd1e292c6316d6c53def57d326eec882fbbe8682a1ed9caa879d3667f303e5</key>
+					<integer>9</integer>
+				</dict>
+			</dict>
+			<key>Reading Questions #4.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>510514422.91151202</real>
+				<key>version</key>
+				<dict>
+					<key>2edd1e292c6316d6c53def57d326eec882fbbe8682a1ed9caa879d3667f303e5</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+			<key>This semester, I studied the works of the metaphysicians Plotinus, Rene Descartes, and Martin.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>511369695.49729401</real>
+				<key>version</key>
+				<dict>
+					<key>2edd1e292c6316d6c53def57d326eec882fbbe8682a1ed9caa879d3667f303e5</key>
+					<integer>17</integer>
+				</dict>
+			</dict>
+			<key>Untitled.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>511036010.91464299</real>
+				<key>version</key>
+				<dict>
+					<key>2edd1e292c6316d6c53def57d326eec882fbbe8682a1ed9caa879d3667f303e5</key>
+					<integer>16</integer>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>This semester, I studied the works of the metaphysicians Plotinus, Rene Descartes, and Martin.md</string>
+		</array>
+		<array>
+			<string>Untitled.md</string>
+		</array>
+		<array>
+			<string>Extra Credit Paper 1.md</string>
+		</array>
+		<array>
+			<string>Reading Questions #4.md</string>
+		</array>
+	</array>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>2edd1e292c6316d6c53def57d326eec882fbbe8682a1ed9caa879d3667f303e5</key>
+			<integer>18</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

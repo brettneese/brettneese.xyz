@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>resolutionData</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>Love Letter to the Mexico City Metro.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>512759013.69087398</real>
+				<key>version</key>
+				<dict>
+					<key>2edd1e292c6316d6c53def57d326eec882fbbe8682a1ed9caa879d3667f303e5</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>Love Letter to the Mexico City Metro.md</string>
+		</array>
+	</array>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>sheetClusters</key>
+		<dict>
+			<key>2edd1e292c6316d6c53def57d326eec882fbbe8682a1ed9caa879d3667f303e5</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
