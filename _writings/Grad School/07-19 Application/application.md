@@ -6,8 +6,6 @@ I have always loved the academy and the resources and structure it provides. At 
 
 Thus, my academic career so far has been "innovative," to say the least -- and, alongside my academic pursuits, I have always participated in building out a professional practice in parallel to the work I was doing in the classroom. When deciding whether or not to apply to graduate school, I grappled with questions of structure versus innovation, practice versus theory... would I be able to forge my own path, blending the resources available through the academy with the ability to focus on both theory and practice? Would I be able to leverage my own personal circumstances -- the fact that I live in a foreign megapolis, Mexico City, Mexico, for instance, with my desire to continue advancing my personal pursuit of knowledge? With the MAAPS program, I think the answer is yes.
 
-// this one needs a lot of work, maybe a rewrite
-
 2. What particular area of study would you like to build into a MAAPS Focus Area? (Please briefly explain what the area is.)
 
 
