@@ -1,6 +1,5 @@
 # Record PXL Footage with an Android Smartphone
 
-
 The PXL 2000 is a toy video camera that I've used to record some dope footage. A friend who runs the PXL film festival, PXL THIS, asked me to write up how I got it to work:
 
 Note that this method has only been tested using a [Google Pixel XL (1)](https://en.wikipedia.org/wiki/Pixel_(smartphone)) and will probably not work with an iPhone/iOS device. You can still find Google Pixels on Amazon [here](https://www.amazon.com/google-pixel-xl/s?k=google+pixel+xl).
