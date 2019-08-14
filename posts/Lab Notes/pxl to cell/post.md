@@ -1,5 +1,7 @@
 Draft: yes
 
+
+
  Note that this method has only been tested using a [Google Pixel XL (1)](https://en.wikipedia.org/wiki/Pixel_(smartphone)) and will probably not work with an iPhone/iOS device. Google Pixel (1) can be found on Amazon [here](https://www.amazon.com/google-pixel-xl/s?k=google+pixel+xl).
 
 - The hardest part is first: the camera itself needs to be modified to support [composite video out](https://en.wikipedia.org/wiki/Composite_video), as the existing hardware only supports modulated RF video (essentially, it pretends to be an analog antenna TV channel.) Patrick Gill, the PXL camera repairman can modify - patrickg0799@yahoo.com & http://www.bentstruments.com/. There is also a very old DIY guide [here](http://web.archive.org/web/20170424072419/http://users.speakeasy.net/~joem/Pxl/).
