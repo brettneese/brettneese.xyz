@@ -16,7 +16,7 @@ It's possible to run Automater workflows from the shell:
 
 
 
-This can also be used within a shell script! Which could be added to L 
+This can also be used within a shell script! Which could be added to `launchd`... 
 
 
 
