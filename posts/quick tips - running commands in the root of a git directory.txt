@@ -1,5 +1,23 @@
+Category: Quick Tips
+
 # Running Commands In the Root of a Git Directory 
 
 
 
-I work in monorepos a lot, and often finding myself needing to run commands at the root of the repoistory from inside a package folder inside the repository. From the root, I use Lerna for this
+I work in monorepos a lot, and often finding myself needing to run commands at the root of the repoistory from inside a package folder inside the repository. From the root, I use [Lerna](https://lerna.js.org/) for this, but from within the subdirectory, I just learned I could do something like:
+
+```bash
+git config --global alias.exec '!exec '
+```
+
+Now I can run things like:
+
+```bash
+git exec npm run deploy
+```
+
+from within a subdirectory. 
+
+
+
+_Thanks to 
