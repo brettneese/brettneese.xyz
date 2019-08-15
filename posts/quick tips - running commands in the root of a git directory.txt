@@ -1,3 +1,5 @@
+Tags: git, quick-tips, shell
+
 Category: Quick Tips
 
 # Running Commands In the Root of a Git Directory 
