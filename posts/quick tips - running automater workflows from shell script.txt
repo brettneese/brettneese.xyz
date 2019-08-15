@@ -1,6 +1,6 @@
-Category: Quick Tips
-
 Tags: development, osx, automator
+
+Category: Quick Tips
 
 # Invoke Automator Workflows From Terminal/Shell on OSX
 
