@@ -1,2 +1,9 @@
 # Getting and Parsing the Repository Root Using Git
 
+```shell
+git rev-parse --show-toplevel
+```
+
+Will print the full, absolute path for a `git` repo. This can be passed into `sed` for further processing. 
+
+_h/t 
