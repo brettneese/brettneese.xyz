@@ -1,0 +1,16 @@
+Category: Quick Tips
+
+Tags: development, osx, automator
+
+# Running Automator Workflows From Terminal/Shell on OSX
+
+
+
+It's possible to run Automater workflows from the shell:
+
+
+
+```
+
+```
+
