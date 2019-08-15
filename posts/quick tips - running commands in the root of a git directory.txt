@@ -2,4 +2,4 @@
 
 
 
-I'm 
+I work in monorepos a lot, and often finding myself needing to run commands at the root of the repoistory from inside a package folder inside the repository. From the root, I use Lerna for this
