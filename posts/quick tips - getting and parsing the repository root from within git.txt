@@ -6,4 +6,4 @@ git rev-parse --show-toplevel
 
 Will print the full, absolute path for a `git` repo. This can be passed into `sed` for further processing. 
 
-_h/t 
+_h/t [baudtack](https://stackoverflow.com/users/10738/baudtack)_
