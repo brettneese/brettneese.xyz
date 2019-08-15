@@ -2,7 +2,7 @@ Category: Quick Tips
 
 Tags: development, osx, automator
 
-# Running Automator Workflows From Terminal/Shell on OSX
+# Invoke Automator Workflows From Terminal/Shell on OSX
 
 
 
