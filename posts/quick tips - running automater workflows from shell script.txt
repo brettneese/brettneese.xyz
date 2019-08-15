@@ -11,6 +11,13 @@ It's possible to run Automater workflows from the shell:
 
 
 ```
-
+/usr/bin/automator ~/Desktop/workflow.workflow
 ```
 
+
+
+This can also be used within a shell script! Which could be added to L 
+
+
+
+Thanks to 
