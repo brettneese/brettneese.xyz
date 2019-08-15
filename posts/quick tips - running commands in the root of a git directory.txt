@@ -4,7 +4,7 @@ Category: Quick Tips
 
 
 
-I work in monorepos a lot, and often finding myself needing to run commands at the root of the repoistory from inside a package folder inside the repository. From the root, I use [Lerna](https://lerna.js.org/) for this, but from within the subdirectory, I just learned I could do something like:
+I work in monorepos a lot, and often finding myself needing to run commands at the root of a git repoistory from inside a package folder inside the repository. From the root, I use [Lerna](https://lerna.js.org/) to run commands in each of the sub-packages, but when I'm `cd`'d into the subdirectory , [I just learned](https://stackoverflow.com/questions/957928/is-there-a-way-to-get-the-git-root-directory-in-one-command#comment9747528_957978) I could do something like:
 
 ```bash
 git config --global alias.exec '!exec '
@@ -16,8 +16,5 @@ Now I can run things like:
 git exec npm run deploy
 ```
 
-from within a subdirectory. 
+from within a subdirectory. This is because `git` aliases always run within the repo root.
 
-
-
-_Thanks to 
