@@ -14,4 +14,5 @@ Working on more automation around this blog, I learned last night that it's poss
 
 This can also be used within a shell script! Which could be added to [`launchd`](https://en.wikipedia.org/wiki/Launchd)... 
 
-Thanks to 
+Thanks to [`kcrypted` for the tip](https://krypted.com/mac-os-x/invoking-automator-workflows-command-line/)! 
+
