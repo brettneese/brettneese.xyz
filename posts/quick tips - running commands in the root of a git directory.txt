@@ -1,5 +1,4 @@
 Category: Quick Tips
-
 Tags: git, quick-tips, shell
 
 # Running Commands In the Root of a Git Directory 
