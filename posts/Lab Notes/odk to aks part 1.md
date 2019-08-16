@@ -1,10 +1,7 @@
----
 Date: 06/02/2019
 Category: Lab Notes 
 Tags: kubernetes, odk, migrating-odk-to-k8s
 Summary: Why I'm doing this, and I begin to experiment with ODK Aggregate on k8s by sending in a PR that tweaks ODK's build process for Docker.
----
-
 
 
 # Migrating ODK Aggregate from Fargate to Azure Kubernetes Services (part 1)
