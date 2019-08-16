@@ -19,6 +19,14 @@ echo $p | sed "s:^${GIT_PATH}::" | cut -c 2-\
 
 And, of course:
 
+```
+cd "/Users/brettneese/Development/git/github.com/brettneese/testdir/sub/"
+export GIT_PATH=$(git rev-parse --show-toplevel)
+echo $p | sed "s:^${GIT_PATH}::" | cut -c 2-\
+
+# sub/test.txt
+```
+
 
 
 _h/t [baudtack](https://stackoverflow.com/questions/957928/is-there-a-way-to-get-the-git-root-directory-in-one-command)_
