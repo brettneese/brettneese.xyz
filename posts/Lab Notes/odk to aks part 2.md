@@ -12,7 +12,7 @@ I already had Minikube installed, so I simply ran:
 
 ```
 minikube start
-``` 
+```
 
 I'm studying for my [CKAD](https://www.cncf.io/certification/ckad/), so luckily I already had the k8s DSL fresh in my head, and [writing up a simple `k8s.yml` was easy](https://github.com/brettneese/aggregate/commit/bd040e50beed57f0ea423a9d7248c0a590e5735b). I chose to embed all my objects into one file - I'm not sure if this is good or bad practice, but it's sure a lot easier to manage.
 
@@ -25,7 +25,7 @@ kubectl describe pods
 
 And I get:
 
-![Fail](./_1.png)
+![Fail](./_3.png)
 
 This is because `minikube` has its own Docker daemon. I need to  run:
 
