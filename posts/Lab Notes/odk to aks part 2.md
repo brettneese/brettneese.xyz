@@ -45,7 +45,7 @@ kubectl logs -l app=odkaggregate
 
 I get: 
 
-![Woo!](./_2.png)
+![Woo!](_images/4.png)
 
 Which is exactly what I want! The [config tweaks](https://brettneese.xyz/lab-notes-migrating-odk-aggregate-from-fargate-to-azure-kubernetes-services-part-2) are working! 
 
