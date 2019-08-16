@@ -1,8 +1,8 @@
 Category: Quick Tips
+Date: 08-15-2019
 Tags: development, osx, automator
 
 # Invoke Automator Workflows From Terminal/Shell on OSX
-
 
 
 Working on more automation around this blog, I learned last night that it's possible to run Automater workflows from the shell:
