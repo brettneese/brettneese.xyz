@@ -1,4 +1,4 @@
-Date: 06-05-2019
+Date: 2019/03/12
 Category: Lab Notes
 Summary: In which I submit another PR that continues to tweak Aggregate's configuration experience for Docker, using Docker bind-mounts, symlinks and other magic.
 Tags: kubernetes, odk, migrating-odk-to-k8s, azure

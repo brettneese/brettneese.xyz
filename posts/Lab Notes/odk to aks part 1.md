@@ -1,4 +1,4 @@
-Date: 03/12/2019
+Date: 2019/03/13
 Category: Lab Notes 
 Summary: Why I'm doing this, and I begin to experiment with ODK Aggregate on k8s by sending in a PR that tweaks ODK's build process for Docker.
 Tags: kubernetes, odk, migrating-odk-to-k8s, azure

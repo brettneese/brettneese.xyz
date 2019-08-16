@@ -1,5 +1,5 @@
 Category: Lab Notes
-Date: 06-04-2019
+Date: 2019/03/19
 Summary: In which I test the previous configuration tweaks in Kubernetes.
 Tags: kubernetes, odk, migrating-odk-to-k8s, azure
 
