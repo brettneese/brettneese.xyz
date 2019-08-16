@@ -1,9 +1,8 @@
 Category: Quick Tips
+Date: 08-15-2019
 Tags: git, quick-tips, shell
 
 # Running Commands In the Root of a Git Directory 
-
-
 
 I work in monorepos a lot, and often finding myself needing to run commands at the root of a git repoistory from inside a package folder inside the repository. From the root, I use [Lerna](https://lerna.js.org/) to run commands in each of the sub-packages, but when I'm `cd`'d into the subdirectory , [I just learned](https://stackoverflow.com/questions/957928/is-there-a-way-to-get-the-git-root-directory-in-one-command#comment9747528_957978) I could do something like:
 
