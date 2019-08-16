@@ -1,5 +1,5 @@
 Category: Quick Tip
-Date: 2019
+Date: 2019/03/18
 Tags: technology, automater, git, technical, thoughtsonwriting, behindthecurtain
 
 # Running Background Shell Scripts Using Automater
