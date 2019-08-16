@@ -1,7 +1,7 @@
 Date: 06-05-2019
 Category: Lab Notes
 Summary: In which I submit another PR that continues to tweak Aggregate's configuration experience for Docker, using Docker bind-mounts, symlinks and other magic.
-
+Tags: kubernetes, odk, migrating-odk-to-k8s, azure
 
 # Migrating ODK Aggregate from Fargate to Azure Kubernetes Service (part 2)
 
