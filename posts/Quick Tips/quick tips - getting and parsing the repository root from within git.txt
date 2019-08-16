@@ -12,6 +12,8 @@ Will print the full, absolute path for a `git` repo. This can be passed into `se
 
 
 ```shell
+export p="/Users/brettneese/Development/git/github.com/brettneese/testdir/sub/test.txt"
+
 
 ```
 
