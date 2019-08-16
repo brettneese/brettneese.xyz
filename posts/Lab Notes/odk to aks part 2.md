@@ -1,5 +1,6 @@
+Date: 06-04-2019
+
 Category: Lab Notes
-Hashtags: #kubernetes , #labnotes , #migratingodktok8s ,  #odk , migrating-okd-to-k8s
 Summary: In which I test the previous configuration tweaks in Kubernetes.
 
 # Migrating ODK Aggregate from Fargate to Azure Kubernetes Service (part 3)
