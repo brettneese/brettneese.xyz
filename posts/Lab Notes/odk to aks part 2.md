@@ -25,7 +25,7 @@ kubectl describe pods
 
 And I get:
 
-![Fail](./_3.png)
+![Fail](./images/_3.png)
 
 This is because `minikube` has its own Docker daemon. I need to  run:
 
