@@ -1,6 +1,8 @@
 Category: Lab Notes
-Tags: #kubernetes , #labnotes , #migratingodktok8s , #odk , #migratingodktok8s , migrating-odk-to-k8s
+Tags: kubernetes , labnotes , migratingodktok8s , odk , migratingodktok8s , migrating-odk-to-k8s
 Summary: Why I'm doing this, and I begin to experiment with ODK Aggregate on k8s by sending in a PR that tweaks ODK's build process for Docker.
+
+Date:
 
 # Migrating ODK Aggregate from Fargate to Azure Kubernetes Services (part 1)
 
@@ -17,9 +19,9 @@ The reasons for this migration are multiple:
  - Azure's resource groups are a lot better at organizing resources that Amazon's tags (because I presume the idea is you'll create multiple AWS accounts for each application)
  - ODK recently released 2.0, but it'd be far too obnoxious to update our Fargate configuration
  - I want to learn Kubernetes, and AKS is cheaper than EKS, which charges a base fee for the master as well as for compute. For AKS, the master is free.
- 
+
 # Running locally
- 
+
 The first step is getting ODK running locally. 
 
 I was delighted to learn that in the many years since I touched ODK Aggregate the docs have improved considerably, and there's even an official Dockerfile in the repo
@@ -42,7 +44,7 @@ Predictably, this also fails:
 I learned here that the Docker build script seems to replace all the values in those files anyway, so I'm safe to do something like [this](https://github.com/brettneese/aggregate/commit/47c4e74323617418dd922752839c29644001cba7), instead.
 
 And since I know that happens, I can go ahead and do [this](https://github.com/brettneese/aggregate/commit/f62eff99d454757503f0e8d58b9f7bb3faed63ec).
- 
+
 This seems fairly hacky though, so I'm going to submit this as a [PR](https://github.com/opendatakit/aggregate/pull/439) and see what the team says.
 
 (Update: it got accepted! [Time to tweak the configuration even more.](https://brettneese.xyz/lab-notes-migrating-odk-aggregate-from-fargate-to-azure-kubernetes-services-part-2))
