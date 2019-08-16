@@ -1,5 +1,6 @@
 Category: Lab Notes
 Date: 08-14-2019
+Tags: art, pxl, hackery
 
 # Record PXL Footage with an Android Smartphone
 
