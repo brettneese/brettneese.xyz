@@ -7,7 +7,15 @@ Date: 08-15-2019
 git rev-parse --show-toplevel
 ```
 
-Will print the full, absolute path for a `git` repo. This can be passed into `sed` for further processing. 
+Will print the full, absolute path for a `git` repo. This can be passed into `sed` for further processing. For instance:
+
+
+
+```shell
+
+```
+
+
 
 _h/t [baudtack](https://stackoverflow.com/questions/957928/is-there-a-way-to-get-the-git-root-directory-in-one-command)_
 
