@@ -3,7 +3,6 @@ Date: 06-07-2019
 Category: Lab Notes
 Summary: In which I test the previous configuration tweaks in Kubernetes.
 
-# 
 ---
 
 # Migrating ODK Aggregate from Fargate to Azure Kubernetes Service (part 4)
