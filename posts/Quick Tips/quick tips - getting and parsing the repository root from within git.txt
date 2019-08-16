@@ -26,7 +26,6 @@ echo ${PWD} | sed "s:^$(git rev-parse --show-toplevel)::" | cut -c 2-
 # sub
 ```
 
-
+This is useful for auto-committing, and such.
 
 _h/t [baudtack](https://stackoverflow.com/questions/957928/is-there-a-way-to-get-the-git-root-directory-in-one-command)_
-
