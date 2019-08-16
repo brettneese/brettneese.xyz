@@ -1,5 +1,6 @@
 Category: Quick Tip
-Tags: #technology  , #automater , #git , #technical , #thoughtsonwriting , #behindthecurtain
+Date: 2019
+Tags: technology, automater, git, technical, thoughtsonwriting, behindthecurtain
 
 # Running Background Shell Scripts Using Automater
 
