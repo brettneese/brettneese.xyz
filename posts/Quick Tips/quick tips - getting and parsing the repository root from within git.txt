@@ -9,8 +9,6 @@ git rev-parse --show-toplevel
 
 Will print the full, absolute path for a `git` repo. This can be passed into `sed` for further processing. For instance:
 
-
-
 ```shell
 export p="/Users/brettneese/Development/git/github.com/brettneese/testdir/sub/test.txt"
 export GIT_PATH=$(git rev-parse --show-toplevel)
@@ -18,6 +16,8 @@ echo $p | sed "s:^${GIT_PATH}::" | cut -c 2-\
 
 # sub/test.txt
 ```
+
+And, of course:
 
 
 
