@@ -12,7 +12,7 @@ Will print the full, absolute path for a `git` repo. This can be passed into `se
 ```shell
 export p="/Users/brettneese/Development/git/github.com/brettneese/testdir/sub/test.txt"
 export GIT_PATH=$(git rev-parse --show-toplevel)
-echo $p | sed "s:^${GIT_PATH}::" | cut -c 2-\
+echo $p | sed "s:^${GIT_PATH}::" | cut -c 2-
 
 # sub/test.txt
 ```
@@ -21,8 +21,7 @@ And, of course:
 
 ```
 cd "/Users/brettneese/Development/git/github.com/brettneese/testdir/sub/"
-export GIT_PATH=$(git rev-parse --show-toplevel)
-echo $p | sed "s:^${GIT_PATH}::" | cut -c 2-\
+echo ${PWD} | sed "s:^$(git rev-parse --show-toplevel)::" | cut -c 2-\
 
 # sub/test.txt
 ```
