@@ -21,9 +21,9 @@ And, of course:
 
 ```
 cd "/Users/brettneese/Development/git/github.com/brettneese/testdir/sub/"
-echo ${PWD} | sed "s:^$(git rev-parse --show-toplevel)::" | cut -c 2-\
+echo ${PWD} | sed "s:^$(git rev-parse --show-toplevel)::" | cut -c 2-
 
-# sub/test.txt
+# sub
 ```
 
 
