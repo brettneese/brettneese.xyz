@@ -10,7 +10,11 @@ Tags: lambda, aws, nodejs
 
 It's incredibly flexible and I use it in virtually every `node` project - it's miles better than parsing `process.env` manually or even setting hardcoded constants in the app itself.
 
-One of the more interesting uses of `convict` is to load values from an outside source -- for instance, from the AWS Parameter Store. Previously, I've used my own custom fork of `convict` for this, but I was recently made aware that I can make stock `convict ` do this as well, via a call to the `load` function. I'm currently rewriting my AWS Parameter Store provider to use native `convict` functions and will write up a more detailed description of this when its done, but here's a simple example:
+One of the more interesting uses of `convict` is to load values from an outside source -- for instance, from the AWS Parameter Store. Previously, I've used my own custom fork of `convict` for this, but I was recently made aware that I can make stock `convict ` do this as well, via a call to the `load` function. I'm currently rewriting my AWS Parameter Store provider to use native `convict` functions and will write up a more detailed description of this when its done, but here's a simple example.
+
+First, of course, we need a convict itself:
+
+
 
 <script src="https://embed.runkit.com" data-element-id="my-element"></script>
 
