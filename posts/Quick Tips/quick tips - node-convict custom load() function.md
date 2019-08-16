@@ -12,16 +12,10 @@ It's incredibly flexible and I use it in virtually every `node` project - it's m
 
 One of the more interesting uses of `convict` is to load values from an outside source -- for instance, from the AWS Parameter Store. Previously, I've used my own custom fork of `convict` for this, but I was recently made aware that I can make stock `convict ` do this as well, via a call to the `load` function. I'm currently rewriting my AWS Parameter Store provider to use native `convict` functions and will write up a more detailed description of this when its done, but here's a simple example.
 
-First, of course, we need a convict itself:
 
 
 
-<div>
 
-
-<div id="my-element">// GeoJSON!
-var getJSON = require("async-get-json");await getJSON("https://storage.googleapis.com/maps-devrel/google.json");</div>
-</div>
 
 
 The downside of this method is that it is static and potentially synchronous. That's fine for all my use cases, though, as I load all my values on application/function start anyway.
