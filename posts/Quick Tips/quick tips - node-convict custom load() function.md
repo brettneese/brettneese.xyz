@@ -16,9 +16,8 @@ First, of course, we need a convict itself:
 
 
 
-<script src="https://embed.runkit.com" data-element-id="my-element"></script> 
 <div>
-   <!-- anywhere else on your page -->
+
 
 <div id="my-element">// GeoJSON!
 var getJSON = require("async-get-json");await getJSON("https://storage.googleapis.com/maps-devrel/google.json");</div>
