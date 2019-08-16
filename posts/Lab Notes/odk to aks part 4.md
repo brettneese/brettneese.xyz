@@ -34,7 +34,7 @@ ERROR 9000 (HY000): Client with IP address '$MYIP' is not allowed to connect to 
 
 And had to manually navigate to the "Connection Security" tab in the Azure Portal and add my IP to the whitelist.
 
-![](_images/4.png)
+![](_images/5.png)
 
 Now that I'm in, I can simply execute:
 
