@@ -1,6 +1,6 @@
 Category: Essays
 Date: 2016/11/26
-Tags: philosophy , movies , communism , papers
+Tags: philosophy, movies, communism, papers
 
 # The Communitarian Politics of WALL·E 
 
