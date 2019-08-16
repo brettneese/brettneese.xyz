@@ -1,3 +1,6 @@
+Category: News and Updates
+Date: 08-13-2019
+
 # Admitted to Grad School! 
 
 When it became obvious that I was actually going to graduate from undergrad, a few people started asking me what was next. My reply so far has been "I don't know, pretty much the same thing." That's mostly true, but not quite.
