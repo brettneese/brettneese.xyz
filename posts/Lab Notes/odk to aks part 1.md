@@ -1,4 +1,4 @@
-Date: 06/02/2019 Category: Lab Notes
+Date: 06/02/2019 Category: Lab Notes 
 
 Tags: kubernetes, odk, migrating-odk-to-k8s
 
