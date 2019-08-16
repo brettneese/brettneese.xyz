@@ -16,13 +16,13 @@ First, of course, we need a convict itself:
 
 
 
-<script src="https://embed.runkit.com" data-element-id="my-element"></script>
-<!-- anywhere else on your page -->
+<script src="https://embed.runkit.com" data-element-id="my-element"></script> 
+<div>
+   <!-- anywhere else on your page -->
+
 <div id="my-element">// GeoJSON!
-var getJSON = require("async-get-json");
-
-await getJSON("https://storage.googleapis.com/maps-devrel/google.json");</div>
-
+var getJSON = require("async-get-json");await getJSON("https://storage.googleapis.com/maps-devrel/google.json");</div>
+</div>
 
 
 The downside of this method is that it is static and potentially synchronous. That's fine for all my use cases, though, as I load all my values on application/function start anyway.
