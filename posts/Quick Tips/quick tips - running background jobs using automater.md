@@ -14,7 +14,7 @@ But I wanted this to run always, just like Dropbox did. The less I have to think
 
 Thankfully, it's easy to wrap shell scripts into Automater applications -- just open Automater, click "new application" and add a "run shell script" action.
 
-![](./_1.png)
+![](_images/1.png)
 
 I had to update my PATH environmental variable in this script to my `brew` directory because it does not automatically source my local `.zshrc`. For easy copypastaing, that's:
 
@@ -25,11 +25,11 @@ gitwatch -r all -b master /Users/brettneese/brettneese.xyz
 
 When you do so, you even get this cool little (spinning) icon in your task bar[^4] telling you an Automater action is running in the background, so I can verify it is running... which is awesome, and exactly what I wanted. I even madly Googled around for how to add an icon for an Automater action to the task bar only to learn that functionality is included by default! 
 
-![](./_2.png)
+![](_images/2.png)
 
 Plus, I can add it to my Login Items in System Preferences so it's always running:
 
-![](./_3.png)
+![](_images/3.png)
 
 And now I've gotten the functionality I liked in Dropbox using just Git and `gitwatch`![^5] 
 
