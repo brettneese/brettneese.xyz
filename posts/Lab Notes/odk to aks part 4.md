@@ -1,6 +1,10 @@
+---
+Date: 06-07-2019
 Category: Lab Notes
-Tags: #kubernetes , #labnotes , #migratingodktok8s , #odk , #migratingodktok8s , migrating-odk-to-k8s
-Summary: In which I chronicle the struggles of connecting ODK to a real database.
+Summary: In which I test the previous configuration tweaks in Kubernetes.
+
+# 
+---
 
 # Migrating ODK Aggregate from Fargate to Azure Kubernetes Service (part 4)
 
