@@ -23,9 +23,9 @@ Thanks to [StackOverflow](https://stackoverflow.com/questions/44035710/connectio
 mysql -u mysql@odk-staging.mysql.database.azure.com -h odk-staging.mysql.database.azure.com -p
 
 ```
- 
+
 My mistake was that the username _must_ be `mysql@odk-staging.mysql.database.azure.com` -- including the hostname.
- 
+
 I also ran into an issue with my IP address:
 
 ```
@@ -34,7 +34,7 @@ ERROR 9000 (HY000): Client with IP address '$MYIP' is not allowed to connect to 
 
 And had to manually navigate to the "Connection Security" tab in the Azure Portal and add my IP to the whitelist.
 
-![](_1.png)
+![](_images/4.png)
 
 Now that I'm in, I can simply execute:
 
