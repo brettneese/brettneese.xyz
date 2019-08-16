@@ -1,5 +1,6 @@
 Category: Research Shorts
 Tags: art, shorts, research, hackery, ideas
+Date: 2019
 
 # Videotex 
 
