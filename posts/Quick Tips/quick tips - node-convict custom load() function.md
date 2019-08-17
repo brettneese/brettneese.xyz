@@ -14,7 +14,7 @@ One of the more interesting uses of `convict` is to load values from an outside 
 
 
 
-<o-embed ref="">
+<o-embed ref="https://runkit.com/brettneese/simple-convict-load-example"></o-embed>
 
 
 
