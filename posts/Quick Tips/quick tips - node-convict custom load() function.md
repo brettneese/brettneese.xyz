@@ -6,7 +6,7 @@ Tags: lambda, aws, nodejs
 
 # Using custom data sources in `node-convict`  via the `convict.load()` function to simplify application configuration
 
-[node-convict](https://github.com/mozilla/node-convict) is a wonderful NPM module that lets you declaratively define configuration settings via JSON (or Javascript objects) and where the values for those configuration options should come from (environmental variables, command line arguments, etc), as well as add validation and even add documentation for them. 
+[node-convict](https://github.com/mozilla/node-convict) is a wonderful NPM module that lets you declaratively define configuration settings via JSON (or Javascript objects) and where the values for those configuration options should cozme from (environmental variables, command line arguments, etc), as well as add validation and even add documentation for them. 
 
 It's incredibly flexible and I use it in virtually every `node` project - it's miles better than parsing `process.env` manually or even setting hardcoded constants in the app itself.
 
