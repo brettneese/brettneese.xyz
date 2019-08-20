@@ -19,4 +19,3 @@ One of the more interesting uses of `convict` is to load values from an outside 
 
 
 The downside of this method is that it is static and potentially synchronous. That's fine for all my use cases, though, as I load all my values on application/function start anyway.
-
