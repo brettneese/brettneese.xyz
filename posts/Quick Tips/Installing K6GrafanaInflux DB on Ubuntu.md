@@ -1,4 +1,3 @@
-Draft: yes
 Category: Quick Tips
 Date: 2019/08/21
 Tags: devops
