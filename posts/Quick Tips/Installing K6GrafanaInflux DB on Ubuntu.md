@@ -1,7 +1,7 @@
 Draft: yes
 Category: Quick Tips
 Date: 2019/08/21
-Tags: Devops
+Tags: devops
 
 # Installing K6/Grafana/Influx DB on Ubuntu
 
