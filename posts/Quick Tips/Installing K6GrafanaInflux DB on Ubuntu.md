@@ -5,7 +5,7 @@ Tags: devops
 
 # Installing K6/Grafana/Influx DB on Ubuntu
 
-K6 is a great load-testing tool that can spit reports out to Grafana via InfluxDB. To install the full stack on a full-stack Ubuntu instance, run something like: 
+[K6](https://k6.io/) is a great load-testing tool that can spit reports out to Grafana via InfluxDB. To install the full stack on a full-stack Ubuntu instance, run something like: 
 
 ```shell
 curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
